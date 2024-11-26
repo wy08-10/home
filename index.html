@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FLOWER SHOP</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="script.js">
+</head>
+
+<body>
+
+<!--header section starts-->
+
+<header>
+
+    <a href="#" class="logo"><img src="logo new.png"height="40" width="120"alt="logo"></a>
+
+    <nav class="navbar">
+        <a class="active" href="#home">Home</a>
+        <a href="#login">Login</a>
+        <a href="#cart">Cart</a>
+        <a href="#review">Review</a>
+    </nav>
+
+    <div class="icons">
+        <i class='fas fa-bars' id="menu-bars"></i>
+        <i class="fas fa-search" id="seacrh-icon"></i>
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-shopping-cart"></a>
+    </div>
+</header>
+<!--header section ends-->
+
+<!-- search form-->
+
+<form action="#" class="search-bar">
+    <input type="text" placeholder="Search...">
+    <button type="submit">
+        <i class='fas fa-search' ></i>
+    </button>
+</form>
+
+<body>
+
+ <!--home section starts-->
+ <section class="home" id="home">
+
+    <div class="swiper">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+                <div class="content">
+                    <span>Our special flower</span>
+                    <h3>Birthday Bouquets</h3>
+                    <p>Elevate celebrations with our vibrant arrangements.</p>
+                    <a href="#" class="btn">order now</a>
+                </div>
+                <div class="image">
+                    <img src="p2.webp" alt="">
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="content">
+                    <span>Our special flower</span>
+                    <h3>Graduation Bouquets</h3>
+                    <p>Give a surprise with our beautiful flower</p>
+                    <a href="#" class="btn">order now</a>
+                </div>
+                <div class="image">
+                    <img src="p15.webp" alt="">
+                </div>
+            </div>
+            
+            <div class="swiper-slide">
+                <div class="content">
+                    <span>Our special flower</span>
+                    <h3>Lily Bouquets</h3>
+                    <p>Elevate celebrations with our Lily.</p>
+                    <a href="#" class="btn">order now</a>
+                </div>
+                <div class="image">
+                    <img src="p4.png" alt="">
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="content">
+                    <span>Our special flower</span>
+                    <h3>Grand Opening Flowers</h3>
+                    <p>Handcrafted by artisans and made to impress.</p>
+                    <a href="#" class="btn">order now</a>
+                </div>
+                <div class="image">
+                    <img src="p7.png" height="550" width="200">
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="content">
+                    <span>Our special flower</span>
+                    <h3>Bloom Together</h3>
+                    <p>Surprise your loved ones with BloomThis x Machino flowers. </p>
+                    <a href="#" class="btn">order now</a>
+                </div>
+                <div class="image">
+                    <img src="p1.png" alt="">
+                </div>
+            </div>
+
+        </div>
+        <div class="swiper-pagination"></div>
+  </div>
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <script>
+    var swiper = new Swiper(".swiper", {
+      spaceBetween: 30,
+      centeredSlides: true,
+      autoplay: {
+        delay: 3000,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      loop:true,
+    });
+  </script>
+
+ </section>
+</body>
+</html>
